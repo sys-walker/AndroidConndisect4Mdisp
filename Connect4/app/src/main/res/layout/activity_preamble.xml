@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Connect4UI.preamble"
+    tools:ignore="MissingConstraints">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- Alies -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alias_field" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="49dp"
+                android:layout_height="44dp"
+                app:srcCompat="@drawable/alias_icon"
+                tools:layout_editor_absoluteX="18dp"
+                tools:layout_editor_absoluteY="463dp" />
+            <EditText
+                android:id="@+id/alias_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/alias_hint"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Mida greaella -->
+    <LinearLayout
+
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_size_text"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/icon"
+                tools:layout_editor_absoluteX="18dp"
+                tools:layout_editor_absoluteY="463dp" />
+
+            <RadioGroup
+                android:id="@+id/graella_radiogrup"
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.195"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.422">
+
+                <RadioButton
+                    android:id="@+id/grid7"
+                    android:layout_width="51dp"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="7" />
+
+                <RadioButton
+                    android:id="@+id/grid6"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <RadioButton
+                    android:id="@+id/grid5"
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- control de temps -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_control_text"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+        <LinearLayout
+            android:layout_width="147dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.612">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="41dp"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/time_control_icon" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:textOff="@string/time_control_off"
+                android:textOn="@string/time_control_on" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- JUGAR -->
+    <Button
+        android:id="@+id/commence_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Començar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831" />
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

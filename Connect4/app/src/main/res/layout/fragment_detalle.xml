@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/DetailResult"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:text="Has guanyat"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="usuari: lefa"
+        android:id="@+id/DetailUser"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Mida taula"
+        android:id="@+id/DetailBoard"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Control de temps"
+        android:id="@+id/DetailTimeCtrl"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="data"
+        android:id="@+id/DetailDate"/>
+
+
+
+</LinearLayout>

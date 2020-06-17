@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0px"
+      android:layout_weight="80"
+      android:orientation="horizontal" >
+
+    <fragment class="com.eps.connect4.UserInterface.Fragments.FragmentListado"
+        android:layout_height="match_parent"
+        android:layout_width="0px"
+        android:layout_weight="30"
+        android:id="@+id/FrgListado"   />
+
+    <fragment class="com.eps.connect4.UserInterface.Fragments.FragmentDetalle"
+        android:layout_height="match_parent"
+        android:layout_width="0px"
+        android:layout_weight="70"
+        android:id="@+id/FrgDetalle"    />
+
+  </LinearLayout>
+  <Button
+      android:id="@+id/button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/ic_action_back"
+      android:text="Atras" />
+</LinearLayout>
+

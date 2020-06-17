@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidConnect4</string>
+    <string name="pseudonim">Alias</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="help_screen">Ayuda</string>
+    <string name="how_to_play">El joc consisteix en anar introduint fitxer en un tauler vertical         amb l\'objectiu dalinear 4 consecutivesdel color assignat al jugador(roig) abas que el teu oponent.\n\n         A cada torn, el jugador introdueix una fitxa a la columna triada (sempre i quan no estigui completa),         i aquesta cau a la posició més baixa possible.\n\n         Guanya la partida el jugador que el primer aconsegueix alinear 4 fitxes consecutives del seu color en horitzontal,         vertical o diagonal.\n\n         Si totes les columnes estan plenes i ningú ha aconseguit alinear-ne 4 fitxes, hi ha empat</string>
+    <string name="send_mail_text">Enviar resultados</string>
+    <string name="start_game_text">Volver a jugar</string>
+    <string name="exit_game_text">Salir</string>
+    <string name="error_mail">No se encontró un correo para enviar</string>
+    <string name="date_subject_part_hint">Fecha y hora</string>
+    <string name="text_mail_hint">Resultados de log</string>
+    <string name="send_mail_to_person_hint">Enviar a ...</string>
+    <string name="cronometer">Cronometro</string>
+    <string name="MailSenderTitle" translatable="false">Resultados de la partida</string>
+    <string name="counter_down">Tiempo restante</string>
+    <string name="status">Estado del juego</string>
+    <string name="go_to_menu">Volver</string>
+    <string name="got_to_help">Ayuda</string>
+    <string name="play_connect">Jugar</string>
+    <string name="go_to_base">Historial de partides</string>
+    <string name="action_exit">Salir</string>
+    <string name="title_screen_settings">Ajustes</string>
+    <string name="title_screen_detail">Detalles de la partida</string>
+    <string name="title_screen_query">Historial de partides</string>
+    <string name="title_screen_game">Partida en curso …</string>
+    <string name="size_grid">Tamaño de la parrilla</string>
+    <string name="time_control_check">Control de tiempo</string>
+    <string name="personalization">Persnalización</string>
+    <string name="duration_game">Tiempo de juego</string>
+    <string name="preference_title">Preferencias</string>
+    <string name="alias_hint">Alias que se guardará la partida</string>
+    <string name="size_grid_hint">Seleccione el tamaño de la parrilla</string>
+</resources>

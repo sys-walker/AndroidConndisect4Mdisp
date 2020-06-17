@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/preference_title">
+        <EditTextPreference
+            android:key="Game_alias"
+            android:title="@string/pseudonim"
+            android:summary="@string/alias_hint"
+            android:maxLength="25"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:defaultValue="Player 1"
+            android:singleLine="true"/>
+        <ListPreference
+            android:key="connect4_grid_size"
+            android:title="@string/size_grid"
+            android:summary="@string/size_grid_hint"
+            android:defaultValue="7 x 7"
+            android:entries="@array/sizes_connect4"
+            android:entryValues="@array/sizes_connect4"/>
+        <SwitchPreference
+            android:key="time_control"
+            android:title="@string/time_control_check"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/personalization">
+
+        <ListPreference
+            android:key="timer"
+            android:title="@string/duration_game"
+            android:summary="seleccione duracion"
+            app:defaultValue="1 min"
+            android:entries="@array/duracio_juego"
+            android:entryValues="@array/duracio_juego"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

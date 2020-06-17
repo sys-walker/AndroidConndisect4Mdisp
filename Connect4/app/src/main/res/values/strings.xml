@@ -1,52 +1,49 @@
 <resources>
-    <string name="app_name">Android Connect4 Multidisp</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-
-    <string name="subject">subject mail [data i hora]</string>
-    <string name="body_mail">body [valors de log]</string>
-    <string name="to_mail">email to ---></string>
-    <string name="send">Enviar</string>
-    <string name="my_text">MY TEXT</string>
-    <string name="alias_field">Alies identificatiu</string>
-
-    <!-- Activity Ajuda-->
-    <string name="help_screen">Ajuda Connect4</string>
-    <string name="how_to_play">El joc consisteix en anar introduint fitxer en un tauler vertical
-        amb l\'objectiu dalinear 4 consecutivesdel color assignat al jugador(roig) abas que el teu oponent.\n\n
-        A cada torn, el jugador introdueix una fitxa a la columna triada (sempre i quan no estigui completa),
-        i aquesta cau a la posició més baixa possible.\n\n
-        Guanya la partida el jugador que el primer aconsegueix alinear 4 fitxes consecutives del seu color en horitzontal,
-        vertical o diagonal.\n\n
-        Si totes les columnes estan plenes i ningú ha aconseguit alinear-ne 4 fitxes, hi ha empat</string>
-    <string name="back_to_menu">Tornar</string>
-    <!-- Activity preamble-->
-    <string name="preamble_screen">Configuració del joc</string>
-    <string name="alias_hint">Jugador_1</string>
-    <string name="grid_size_text">Mida de la graella</string>
-    <string name="error_size_grid">Error al seleccionar, default = 7 </string>
-    <string name="time_control_text">Control de temps</string>
-    <string name="time_control_on">ACTIVAT</string>
-    <string name="time_control_off">DESACTIVAT</string>
-    <!-- Main Activity -->
-    <string name="button_help">Ajuda</string>
-    <string name="next">Començar el joc</string>
-    <string name="stats">Consultar partides</string>
-    <string name="button_exit">sortir del joc</string>
-    <!-- ????????? Activity -->
-    <string name="default_alias"> connect_player</string>
-    <!-- Moralla -->
+    <string name="app_name">AndroidConnect4</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pseudonim">pseudònim</string>
+    <string name="help_screen">Ajuda</string>
+    <string name="how_to_play" translatable="false">El joc consisteix en anar introduint fitxer en un tauler vertical         amb l\'objectiu dalinear 4 consecutivesdel color assignat al jugador(roig) abas que el teu oponent.\n\n         A cada torn, el jugador introdueix una fitxa a la columna triada (sempre i quan no estigui completa),         i aquesta cau a la posició més baixa possible.\n\n         Guanya la partida el jugador que el primer aconsegueix alinear 4 fitxes consecutives del seu color en horitzontal,         vertical o diagonal.\n\n         Si totes les columnes estan plenes i ningú ha aconseguit alinear-ne 4 fitxes, hi ha empat</string>
 
-    <string name="nom">Nom:</string>
-    <string name="size">Board_Size:</string>
-    <string name="timeControl">Time_control_boolean</string>
-    <string name="fecha">Fecha</string>
-    <string name="intResult">Resultat_Int</string>
-    <string name="shared">Configuració</string>
+    <!--MAilSender-->
+    <string name="send_mail_text">Enviar resultats</string>
+    <string name="start_game_text">Reiniciar la partida</string>
+    <string name="exit_game_text">Sortir</string>
+    <string name="MailSenderTitle">Resultats de la partida</string>
+    <string name="error_mail">No s\'ha introduit cap correu de destí</string>
+    <string name="date_subject_part_hint">Data i hora</string>
+    <string name="text_mail_hint">Resultats de log</string>
+    <string name="send_mail_to_person_hint">Enviar a …</string>
+    <string name="counter_down">Temps restant</string>
+    <string name="cronometer">Cronòmetre</string>
+    <string name="status">Estat del joc</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="go_to_menu">Tornar</string>
+    <string name="got_to_help">Ajuda</string>
+    <string name="play_connect">Jugar</string>
+    <string name="go_to_base">Historial de partides</string>
+    <string name="action_exit">Sortir</string>
+    <string name="title_screen_settings">Configuració</string>
+    <string name="title_screen_detail">Detalls de la partida</string>
+    <string name="title_screen_query">Historial de partides</string>
+    <string name="title_screen_game">Partida en curs …</string>
+    <string name="size_grid">Mida de la graella</string>
+    <string name="time_control_check">Control de temps</string>
+    <string name="personalization">Personalització</string>
+    <string name="duration_game">Temps de joc</string>
+    <string name="preference_title">Preferències</string>
+    <string name="alias_hint">Alias que es guardarà la partida</string>
+    <string name="size_grid_hint">Seleccioni la mida de la graella</string>
+
+
+    <!-- TODO: COPIADO -->
+
+    <!-- TODO: MI IMPLEMNTACION -->
 
 
 </resources>
-

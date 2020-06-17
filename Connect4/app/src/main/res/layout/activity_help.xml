@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Connect4UI.helpActivity">
-
-    <!-- TODO: Update blank fragment layout -->
-
-
+    tools:context=".UserInterface.HelpActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,11 +18,11 @@
         app:layout_constraintVertical_bias="0.171" />
 
     <Button
-        android:id="@+id/button_b_main"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/back_icon"
-        android:text="@string/back_to_menu"
+        android:text="@string/go_to_menu"
+        android:drawableLeft="@drawable/ic_action_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.547"
@@ -44,5 +40,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.742"
         app:srcCompat="@drawable/connect4_sample" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

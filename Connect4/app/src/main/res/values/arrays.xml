@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="sizes_connect4">
+        <item>7 x 7</item>
+        <item>6 x 6</item>
+        <item>5 x 5</item>
+    </array>
+
+    <array name="duracio_juego">
+        <item>1 min</item>
+        <item>30 sec</item>
+        <item>20 sec</item>
+    </array>
+
+    <array name="combo_nivel">
+        <item>Facil</item>
+        <item>Medio</item>
+        <item>Dificil</item>
+    </array>
+</resources>

@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--android:background="#FFBBBBBB" -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
 
-    android:orientation="vertical"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent" >
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_height="match_parent" 
+	android:layout_width="match_parent" >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:src="@drawable/icon" />
 
-    <TextView
-        android:id="@+id/DetailResult"
-        android:layout_width="124dp"
-        android:layout_height="wrap_content"
-        android:text="Has guanyat"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-    <TextView android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="usuari: lefa"
-        android:id="@+id/DetailUser"/>
-    <TextView android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="Mida taula"
-        android:id="@+id/DetailBoard"/>
-    <TextView android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="Control de temps"
-        android:id="@+id/DetailTimeCtrl"/>
-    <TextView android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="data"
-        android:id="@+id/DetailDate"/>
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="70dp">
+		<ImageView
+			android:id="@+id/icon_result"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:srcCompat="@drawable/derrota"
+			tools:layout_editor_absoluteY="1dp" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/db_alias"
+		android:layout_width="wrap_content"
+		android:text="Usuario"/>
+  	<TextView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+		android:id="@+id/db_date"
+	  android:text="data"/>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/db_size"
+		android:layout_width="wrap_content"
+
+		android:text="size"/>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/db_time_ctrl"
+		android:text="time control"/>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/db_result"
+		android:text="resultat"/>
 
 
 
